@@ -1,3 +1,7 @@
+$("document").ready(function() {
+
+
+
 var words = ["guvy", "zilla", "virgil", "erica", "nose"];
 
 var word = words[Math.floor(Math.random() * words.length)];
@@ -51,3 +55,5 @@ if (remainingGuesses === 0) {
   }else {
 alert(answerArray.join(""));
 alert("Good job! The answer was " + word); }
+
+});
